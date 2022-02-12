@@ -1,11 +1,19 @@
 <script setup>
-
+import Header from "./components/Header.vue";
+import About from "./components/About.vue";
+import Projects from "./components/Projects.vue";
+import Testimonial from "./components/Testimonial.vue";
+import Contact from "./components/Contact.vue";
+import Footer from "./components/Footer.vue";
 </script>
 
 <template>
-  <main>
-    <h1>Hello world</h1>
-  </main>
+  <Header />
+  <About />
+  <Projects />
+  <Testimonial />
+  <Contact />
+  <Footer />
 </template>
 
 <style lang="scss">
