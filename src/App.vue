@@ -31,7 +31,7 @@ body {
 }
 
 .content {
-  max-width: 1206px;
+  max-width: 1110px;
   margin: 0 auto;
 }
 
