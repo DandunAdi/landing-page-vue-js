@@ -27,5 +27,32 @@ import Footer from "./components/Footer.vue";
 
 body {
   font-family: 'Mulish', sans-serif;
+  color: #1E3240;
+}
+
+.content {
+  max-width: 1206px;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 18px 24px;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 0;
+  border: none;
+  cursor: pointer;
+  font-family: 'Mulish', sans-serif;
+
+  &-primary {
+    background-color: #1E3240;
+    color: #fff;
+  }
+
+  &-secondary {
+    background-color: #AFD4E2;
+    border: 1px solid #1E3240;
+    color: #1E3240;
+  }
 }
 </style>
